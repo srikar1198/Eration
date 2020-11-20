@@ -1,0 +1,190 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#Title-page{
+  background-color: #66BFBF;
+  color:#fff;
+}
+
+#features{
+  padding-top: 10%;
+}
+/* #Product-descrption{
+
+   background-color: #8f8f8f;
+} */
+.container-fluid{
+  margin:0 10px;
+}
+h1{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  color:  #000;
+  font-size: 3.1rem;
+  line-height: 1.5;
+  margin-bottom: 5%
+}
+h2{
+  color: #000;
+  padding-bottom: 5%;
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+  color: #66BFBF;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #8f8f8f;
+}
+.tit{
+  text-align: center;
+  padding-bottom: 21%;
+  padding-top: 8%;
+}
+.navbar{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 3% 6% 4% 2%;
+
+}
+
+.navbar-brand{
+  font-size: 2.4rem;
+}
+
+.nav-item{
+  font-size:1.2rem;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.download-button{
+  margin: 6px 2px 5px ;
+
+}
+
+.features-box{
+  text-align: center;
+  padding-top: 18%;
+  padding-bottom: 15%;
+
+}
+
+ #Product-descrption{
+  background-color: #64958f;
+  text-align: center;
+  color:#fff;
+}
+
+.slides{
+    padding: 13% 20% 10% 15%;
+}
+
+.pro-img{
+padding: 3%;
+ border-radius: 100%;
+}
+
+.features-icon{
+  margin-bottom: 5%;
+  color: #fff;
+}
+
+.fab:hover{
+  color: #000;
+}
+
+.sl:hover{
+  color: #000;
+}
+
+.features-icon:hover{
+  color: #64958f;
+}
+
+.install{
+  text-align: center;
+  padding: 10% 0 10% 0;
+  background-color:#EAF6F6;
+}
+
+.fixed-bg {
+  padding-top: 20%;
+  text-align: center;
+  background-image: url("space.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fixed-qt{
+padding-top: 20%;
+padding-bottom: 15%;
+text-align: center;
+background-image:url("secure.jpg");
+
+min-height: 550px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.fixed-design{
+padding-top: 20%;
+padding-bottom: 15%;
+text-align: center;
+background-image:url("design.jpg");
+
+min-height: 550px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.tu{
+  text-align: center;
+}
+
+.tu img{
+  width: 70%
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #000;
+}
+/* .progress-container {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+} */
+
+.progress-bar {
+  height: 14px;
+  background: #28df99;
+  width: 0%;
+}
+
+[data-aos="rotate-c"] {
+  transform: rotate(-180deg);
+  transition-property: transform;
+}
+
+[data-aos="rotate-c"].aos-animate {
+  transform: rotate(0deg);
+}
